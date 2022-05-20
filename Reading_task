@@ -86,7 +86,7 @@ defaultKeyboard = keyboard.Keyboard()
 # Initialize components for Routine "Instr_1"
 Instr_1Clock = core.Clock()
 text = visual.TextStim(win=win, name='text',
-    text="", # your instructions here
+    text="", # your instructions here to describe the task
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -97,7 +97,7 @@ key_resp = keyboard.Keyboard()
 # Initialize components for Routine "Instr_2"
 Instr_2Clock = core.Clock()
 text_2 = visual.TextStim(win=win, name='text_2',
-    text="", # your instructions here
+    text="", # your instructions here to describe the task
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -130,7 +130,7 @@ key_resp_4 = keyboard.Keyboard()
 # Initialize components for Routine "Instr_3"
 Instr_3Clock = core.Clock()
 text_3 = visual.TextStim(win=win, name='text_3',
-    text="", # your instructions here
+    text="", # your instructions here to indicate the task has been completed
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
